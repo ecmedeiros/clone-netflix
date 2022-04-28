@@ -6,13 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Clone-Netflix</title>
+    
+    <!--Fonte Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+    <title>Animeflix</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">ANIMEFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -26,22 +36,82 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Fullmetal Alchemist Brotherood</h3>
-                <p class="descricao">Com seus corpos em péssimo estado, os irmãos Edward e Alphonse enfrentam forças
-                    sinistras para recuperá-los.</p>
-            </div>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    MAIS INFORMAÇÕES
-                </button>
-            </div>
+                <img class="titulo" src="img/titulo.png" alt="">
+                <!--
+                    Titulo em texto
+                    <h3 class="titulo">Fullmetal Alchemist Brotherood</h3>*/
+                -->
+                <p class="descricao">Os irmãos Ed e Al precisam deter Isaac Mcdougal, conhecido como o Alquimista de
+                    Gelo, que está tentando congelar a Central. Seu objetivo é vingar-se dos militares responsáveis pelo
+                    massacre de Ishbal. King Bradley pode ser a próxima vítima.</p>
 
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-info"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <h3>Violentos</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <h4><img class="box-film" src="img/parasyte.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/Deviman.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/shingeki.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/Kimetsu.png" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/deathnote.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/Drstone.jpg" alt=""></h4>
+            </div>
+        </div>
+        
+        <h3>Filmes</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <h4><img class="box-film" src="img/filme.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/mugentrain.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/koenokatachi.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/mini1.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/mini2.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/mini4.jpg" alt=""></h4>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/4680ea58b5.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 </body>
 
 </html>
