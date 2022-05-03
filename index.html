@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!--Fonte Logo-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,64 +27,67 @@
         <div class="container">
             <h2 class="logo">ANIMEFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Animes</a>
-                <a href="#">Documentários</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#populares">Populares</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#emBreve">Em Breve</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="filme-principal">
-            <div class="container">
-                <img class="titulo" src="img/titulo.png" alt="">
-                <!--
-                    Titulo em texto
-                    <h3 class="titulo">Fullmetal Alchemist Brotherood</h3>*/
-                -->
-                <p class="descricao">Os irmãos Ed e Al precisam deter Isaac Mcdougal, conhecido como o Alquimista de
-                    Gelo, que está tentando congelar a Central. Seu objetivo é vingar-se dos militares responsáveis pelo
-                    massacre de Ishbal. King Bradley pode ser a próxima vítima.</p>
-
-                <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-info"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-circle-info"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
+        <section id="inicio">
+            <div class="filme-principal">
+                <div class="container">
+                    <img class="titulo" src="img/titulo.png" alt="">
+                    <!--
+                        Titulo em texto
+                        <h3 class="titulo">Fullmetal Alchemist Brotherood</h3>*/
+                    -->
+                    <p class="descricao">Os irmãos Ed e Al precisam deter Isaac Mcdougal, conhecido como o Alquimista de
+                        Gelo, que está tentando congelar a Central. Seu objetivo é vingar-se dos militares responsáveis
+                        pelo massacre de Ishbal. King Bradley pode ser a próxima vítima.</p>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-info"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <div class="carrosel-filmes">
-        <h3>Violentos</h3>
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <h4><img class="box-film" src="img/parasyte.jpg" alt=""></h4>
+    <section id="populares">
+        <div class="carrosel-filmes">
+            <h3>Populares</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h4><img class="box-film" src="img/parasyte.jpg" alt=""></h4>
+                </div>
+                <div class="item">
+                    <h4><img class="box-film" src="img/Deviman.jpg" alt=""></h4>
+                </div>
+                <div class="item">
+                    <h4><img class="box-film" src="img/shingeki.jpg" alt=""></h4>
+                </div>
+                <div class="item">
+                    <h4><img class="box-film" src="img/Kimetsu.png" alt=""></h4>
+                </div>
+                <div class="item">
+                    <h4><img class="box-film" src="img/deathnote.jpg" alt=""></h4>
+                </div>
+                <div class="item">
+                    <h4><img class="box-film" src="img/Drstone.jpg" alt=""></h4>
+                </div>
             </div>
-            <div class="item">
-                <h4><img class="box-film" src="img/Deviman.jpg" alt=""></h4>
-            </div>
-            <div class="item">
-                <h4><img class="box-film" src="img/shingeki.jpg" alt=""></h4>
-            </div>
-            <div class="item">
-                <h4><img class="box-film" src="img/Kimetsu.png" alt=""></h4>
-            </div>
-            <div class="item">
-                <h4><img class="box-film" src="img/deathnote.jpg" alt=""></h4>
-            </div>
-            <div class="item">
-                <h4><img class="box-film" src="img/Drstone.jpg" alt=""></h4>
-            </div>
-        </div>
-        
+    </section>
+
+    <section id="filmes">
         <h3>Filmes</h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
@@ -103,10 +109,28 @@
                 <h4><img class="box-film" src="img/mini4.jpg" alt=""></h4>
             </div>
         </div>
+    </section>
 
-    </div>
-
-    </div>
+    <section id="emBreve">
+        <h3>Em breve</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <h4><img class="box-film" src="img/embreve1.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/embreve2.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/embreve3.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/embreve4.jpg" alt=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-film" src="img/embreve5.jpg" alt=""></h4>
+            </div>
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/4680ea58b5.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>

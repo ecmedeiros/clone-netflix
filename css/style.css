@@ -16,6 +16,10 @@ body {
     color: white;
 }
 
+body h3 {
+    margin-left: 5px;
+}
+
 header .container {
     display: flex;
     flex-direction: row;
@@ -25,7 +29,7 @@ header .container {
 
 .container {
     /*border: 1px solid black;*/
-    width: 45%;
+    margin-right: 90px;
     margin-left: 20px;
 }
 
@@ -60,8 +64,8 @@ header .logo {
 }
 
 .filme-principal .descricao {
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*
@@ -78,14 +82,14 @@ header .logo {
 }
 
 .descricao {
-    font-size: 16px;      
+    font-size: 16px;
 }
 
 .botao {
     margin-left: 5px;
     background-color: rgba(0, 0, 0, .50);
     border: none;
-    color:white;
+    color: white;
 
 
     padding: 15px 30px;
@@ -115,7 +119,7 @@ header .logo {
     padding-left: 5px;
 }
 
-.carrosel-filmes h3{
+.carrosel-filmes h3 {
     font-size: 20px;
     padding-left: 5px;
 }
